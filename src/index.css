@@ -9,10 +9,12 @@
     padding: 0;
 }
 
+
 html {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    touch-action: manipulation;
+input {
+    touch-action: none;
 }
+
