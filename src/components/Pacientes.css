@@ -1,0 +1,51 @@
+.quotes {
+    width: 90%;
+    margin: 0 auto;
+
+    
+}
+
+.quotes .container__quotes {
+    background-color: var(--color-white-from);
+    box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.container__quotes p {
+    font-weight: 700;
+}
+
+.container__quotes span {
+    font-weight: 400;
+
+}
+
+.button {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.button button {
+    padding: 9px 25px;
+    border-radius: 15px;
+    color: var(--color-white-from);
+    border: none;
+    font-weight: 600;
+   
+}
+.button .edit {
+
+    background-color: var(--color-purpe);
+    
+}
+
+.button .delete {
+    
+    background-color: rgb(208, 10, 10);
+    
+}

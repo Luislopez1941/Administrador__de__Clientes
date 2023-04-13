@@ -1,0 +1,147 @@
+:root {
+    --color-secundario: #3841F2;
+    --color-terciario: #2620E4;
+    --color-text: #F2F2F2;
+}
+.login {
+    display: flex;
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    
+   
+}
+
+.login__left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left__container {
+    width: 100%;
+    height: 95%;
+    border-radius: 30px;
+    background-color: var(--color-secundario);
+    color: var(--color-text);
+}
+
+.left__content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px 20px;
+}
+
+.left__content h2 {
+    font-size: 3em;
+    
+}
+
+
+.login__right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__container {
+    
+}
+
+
+.title__login {
+    display: block;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    
+    
+}
+
+.title__login h2 {
+    font-size: 2em;
+}
+.right__form {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form__right  {
+    padding: 20px;
+    
+}
+
+.form__right input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.form__right label {
+    text-align: start;
+    display: block;
+    padding: 10px 0;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__login {
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: var(--color-secundario);
+    color: var(--color-text);
+    border: none;
+ 
+}
+
+.button__login {
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+  }
+  
+  .button__login:hover {
+    transform: scale(1.1);
+  }
+  
+  .button__login:active {
+    transition-duration: 200ms;
+    transform: scale(.90);
+  }
+
+@media screen and (max-width: 768px) {
+    .login {
+        display: block;
+        height: 100vh;
+    }
+    .login__left {
+        width: 100%; 
+        display: none;
+    }
+
+    .login__right {
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+
+    .title__login {
+        display: block;
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        
+        
+    }
+    
+    
+}

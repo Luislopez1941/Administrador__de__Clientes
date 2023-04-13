@@ -1,0 +1,14 @@
+:root {
+    --color-white: white;
+    --color-white-from: white;
+    --color-purpe: #6503A6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
