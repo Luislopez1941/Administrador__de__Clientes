@@ -143,5 +143,11 @@
         
     }
     
+    input:focus {
+        -ms-touch-action: manipulation;
+        user-scaleble: no;
+            
+    }
+    
     
 }
